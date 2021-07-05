@@ -3,6 +3,9 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 /*Company name styling */
+.home {
+    margin-bottom: 70px;
+}
 
 .logoname {
     text-decoration: none;
@@ -26,33 +29,91 @@ body {
 /*Company name styling end */
 
 /* Home description styling*/
+/*Section and division styling */
 .home-main {
     display: flex;
 }
 .home-description {
-    width: 50%;
-    padding: 2%;
+    width: 50%;  
+}
+#home-main-padding {
+    padding: 10% 2% 2% 2% ;
 }
 .home-description img {
-    width: 80%;
+    width: 85%;
 }
+/*Heading of home manu*/
+
 .description-heading {
     font-size: 50px;
 }
+
 .yummy-style {
     color: orangered;
 }
-/* Hire me button styling */
+/* Order button styling */
 
 .description-para {
-    margin-bottom: 50px;
+    margin-bottom: 65px;
+    font-family: 'Zen Loop', cursive;
+    font-size: 20px;
+    font-weight: 900;
 }
-.hire-button {
+.order-button {
     text-decoration: none;
     background-image: linear-gradient(orange ,red);
     color: white;
-    padding: 10px 40px;
-    border-radius: 20px;    
+    padding: 20px 45px;
+    border-radius: 40px;    
 }
 /*Hire me button styling end */
 /*Home description styling end */
+
+/* Second section styling */
+/*About me. */
+.about {
+    font-size: 50px;
+    font-family: 'Zen Loop', cursive;
+    font-weight: 900;
+}
+/*Abdul Hakim */
+.myname {
+    font-size: 20px;
+}
+/*Description about me */
+
+#para-padding {
+    padding-right: 150px;
+    margin-bottom: 70px;
+    
+}
+   
+/* Section & division styling */
+
+.about-main {
+    display: flex;
+    background-image: url(./image/shape/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+}
+.about-description {
+    width: 50%;
+}
+.about-description img {
+    width: 60%;
+}
+#about-padding {
+    padding-top: 50px;
+    padding-right: 100px;
+    
+}
+
+#photo-padding {
+    padding-top: 50px;
+    padding-left: 130px;
+}
+
+
+/*Second section styling  end*/
+
