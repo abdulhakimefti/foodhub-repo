@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*Company name styling */
+
+.logoname {
+    text-decoration: none;
+    font-size: 35px;
+    
+}
+.span-food {
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    
+}
+.span-hub {
+    font-family: 'Tourney', cursive;
+    color: black;
+}
+.junior {
+    font-family: 'Cookie', cursive;
+    color: red;
+}
+
+/*Company name styling end */
+
+/* Home description styling*/
+.home-main {
+    display: flex;
+}
+.home-description {
+    width: 50%;
+    padding: 2%;
+}
+.home-description img {
+    width: 80%;
+}
+.description-heading {
+    font-size: 50px;
+}
+.yummy-style {
+    color: orangered;
+}
+/* Hire me button styling */
+
+.description-para {
+    margin-bottom: 50px;
+}
+.hire-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange ,red);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;    
+}
+/*Hire me button styling end */
+/*Home description styling end */
