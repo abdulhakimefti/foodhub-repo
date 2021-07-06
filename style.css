@@ -1,11 +1,12 @@
 body {
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-/*Company name styling */
-.home {
+section {
     margin-bottom: 70px;
 }
+/*First section styling*/
+/*Company name styling */
 
 .logoname {
     text-decoration: none;
@@ -37,7 +38,7 @@ body {
     width: 50%;  
 }
 #home-main-padding {
-    padding: 10% 2% 2% 2% ;
+    padding: 2% 2% 2% 5% ;
 }
 .home-description img {
     width: 85%;
@@ -51,14 +52,16 @@ body {
 .yummy-style {
     color: orangered;
 }
-/* Order button styling */
 
+/* Food Hub  Description */
 .description-para {
     margin-bottom: 65px;
     font-family: 'Zen Loop', cursive;
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 23px;
+    font-weight: 1000;
+    color: gray;
 }
+/* Order button styling */
 .order-button {
     text-decoration: none;
     background-image: linear-gradient(orange ,red);
@@ -68,13 +71,14 @@ body {
 }
 /*Hire me button styling end */
 /*Home description styling end */
+/*First section styling end*/
 
 /* Second section styling */
 /*About me. */
 .about {
-    font-size: 50px;
-    font-family: 'Zen Loop', cursive;
+    font-size: 35px;
     font-weight: 900;
+    color: gray;
 }
 /*Abdul Hakim */
 .myname {
@@ -83,7 +87,7 @@ body {
 /*Description about me */
 
 #para-padding {
-    padding-right: 150px;
+    padding-right: 130px;
     margin-bottom: 70px;
     
 }
@@ -95,7 +99,7 @@ body {
     background-image: url(./image/shape/Frame\ 58.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-      
+    
 }
 .about-description {
     width: 50%;
@@ -116,4 +120,99 @@ body {
 
 
 /*Second section styling  end*/
+/* Third section styling */
+/*My recipies and description styling */
+.recipies {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.recipies p {
+    font-size: 16px;
+}
+/* All My recipies style */
+/*Recipies Display position styling*/
+.recipies-main {
+    display: flex;
+}
+.recipies-view {
+    width: 27%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    text-align: center;
+}
+.recipies-view img {
+    width: 100%;
+}
+.recipies-view-margin1 {
+    margin-left: 6.5%;
+    margin-right: 3%;
+}
+.recipies-view-margin2 {
+    margin-left: 3%;
+    margin-right: 6.5%;
+}
 
+/*Recipies Display position styling end*/
+.foodname {
+    font-size: 25px;
+}
+/*Learn More button design */
+.learn-more  {
+    text-decoration: none;
+    background-color: white;
+    color: violet;
+    padding: 10px 20px;
+    box-shadow: .5px .5px 3px blue;
+    border-radius: 8px;
+}
+/*Learn More button design  end */
+/* All My recipies style end */
+/* All My recipies style end*/
+
+/*Fourth Section*/
+.popularity {
+    display: flex;
+    width: 90%;
+    margin-top: 120px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 70px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 30px;
+}
+
+.popular {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+.youtube {
+    margin-left:5%;
+    margin-right:3% ;
+}
+.insta {
+    margin-left:3% ;
+    margin-right:3% ;
+}
+.like {
+    margin-left: 3%;
+    margin-right: 5%;
+}
+/*Forth Section End*/
+/*Footer */
+.finish {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.span-food-color {
+    font-family: 'Orbitron', sans-serif;
+    color: red;
+}
+.span-hub-color {
+    font-family: 'Tourney', cursive;
+    color: grey;
+}
