@@ -118,7 +118,6 @@ section {
     padding-left: 130px;
 }
 
-
 /*Second section styling  end*/
 /* Third section styling */
 /*My recipies and description styling */
@@ -200,8 +199,8 @@ section {
     margin-right: 5%;
 }
 .remove-margin-padding {
-    margin: 20px;
-    padding: 0;
+    margin-bottom: 5px;
+    padding-bottom: 0;
 }
 /*Forth Section End*/
 /*Footer */
